@@ -31,3 +31,4 @@
 .\objects\main.o: .\std_periph_driver\inc\stm32f10x_usart.h
 .\objects\main.o: .\std_periph_driver\inc\stm32f10x_wwdg.h
 .\objects\main.o: user\app_button.h
+.\objects\main.o: user\app_pwm.h

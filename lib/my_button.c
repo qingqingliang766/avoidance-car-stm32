@@ -107,3 +107,7 @@ void My_Button_LongPressConfig(Button_TypeDef *Button, uint32_t Threshold, uint3
         Button->LongPressTickInterval = TickInterval;
     }
 }
+
+
+
+

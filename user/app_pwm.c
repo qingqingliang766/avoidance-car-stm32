@@ -41,3 +41,7 @@ static void STBY_Pin_Init(void)
 
     GPIO_Init(GPIOA, &GPIO_InitStruct);
 }
+
+
+
+
