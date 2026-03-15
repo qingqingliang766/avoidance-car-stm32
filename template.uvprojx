@@ -340,7 +340,7 @@
               <MiscControls>--no-multibyte-chars</MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\std_periph_driver\inc;.\user;.\my_lib;.\my_lib\font;.\my_lib\font\.h;.\lib</IncludePath>
+              <IncludePath>.\std_periph_driver\inc;.\user;.\my_lib;.\my_lib\font;.\my_lib\font\.h;.\lib;.\test</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -688,6 +688,21 @@
               <FileName>my_button.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\lib\my_button.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>test</GroupName>
+          <Files>
+            <File>
+              <FileName>pwm_test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\test\pwm_test.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_test.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\test\pwm_test.h</FilePath>
             </File>
           </Files>
         </Group>

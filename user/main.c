@@ -1,20 +1,18 @@
 #include "stm32f10x.h"
-#include "app_button.h" // 只需要引入应用层头文件
+#include "app_button.h" 
 #include "app_pwm.h"
+#include "pwm_test.h"
 
-int main(void) {
+int main(void) 
+{
+    // 1. 【必须先做】唤醒所有部门，尤其是把时间心跳（SysTick）跑起来！
+    App_Button_Init();  
+    App_PWM_Init();
     
-    // 1. 唤醒按键部门，完成所有初始化工作
-    App_Button_Init(); 
-	  App_PWM_Init();
-	
+    // 2. 【然后再做】现在手表在走了，Delay() 函数就不会卡死了
+    PWM_Test();
+    
     while (1) {
-        // 2. 让按键部门自己去后台盯着，有单击情况它会自己开灯关灯
         App_Button_Proc(); 
-        
-        // 老板这里还可以安排其他部门的工作
-        // App_Motor_Proc();
-        // App_Screen_Proc();
     } 
 }
-

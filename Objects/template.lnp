@@ -29,6 +29,7 @@
 ".\objects\stm32f10x_usart.o"
 ".\objects\stm32f10x_wwdg.o"
 ".\objects\my_button_1.o"
+".\objects\pwm_test.o"
 --library_type=microlib --strict --scatter ".\Objects\template.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
