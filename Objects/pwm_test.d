@@ -32,3 +32,4 @@
 .\objects\pwm_test.o: .\std_periph_driver\inc\stm32f10x_usart.h
 .\objects\pwm_test.o: .\std_periph_driver\inc\stm32f10x_wwdg.h
 .\objects\pwm_test.o: .\user\app_pwm.h
+.\objects\pwm_test.o: .\my_lib\delay.h

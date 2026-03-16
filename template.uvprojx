@@ -678,18 +678,6 @@
         </Group>
         <Group>
           <GroupName>lib</GroupName>
-          <Files>
-            <File>
-              <FileName>my_button.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\lib\my_button.c</FilePath>
-            </File>
-            <File>
-              <FileName>my_button.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\lib\my_button.h</FilePath>
-            </File>
-          </Files>
         </Group>
         <Group>
           <GroupName>test</GroupName>
@@ -703,6 +691,81 @@
               <FileName>pwm_test.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\test\pwm_test.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>my_lib</GroupName>
+          <Files>
+            <File>
+              <FileName>button.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\my_lib\button.c</FilePath>
+            </File>
+            <File>
+              <FileName>button.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\my_lib\button.h</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\my_lib\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\my_lib\delay.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\my_lib\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\my_lib\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\my_lib\oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\my_lib\oled.h</FilePath>
+            </File>
+            <File>
+              <FileName>oled_default_font.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\my_lib\oled_default_font.h</FilePath>
+            </File>
+            <File>
+              <FileName>oled_font.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\my_lib\oled_font.h</FilePath>
+            </File>
+            <File>
+              <FileName>si2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\my_lib\si2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>si2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\my_lib\si2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\my_lib\usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\my_lib\usart.h</FilePath>
             </File>
           </Files>
         </Group>

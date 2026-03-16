@@ -1,18 +1,26 @@
 #include "stm32f10x.h"
-#include "app_button.h" 
+#include "delay.h"     
+#include "app_button.h"  
 #include "app_pwm.h"
 #include "pwm_test.h"
 
 int main(void) 
 {
-    // 1. 【必须先做】唤醒所有部门，尤其是把时间心跳（SysTick）跑起来！
+    // 系统上电
+    Delay_Init();  
+    
+    // 2. 唤醒各个部门 
     App_Button_Init();  
     App_PWM_Init();
     
-    // 2. 【然后再做】现在手表在走了，Delay() 函数就不会卡死了
+    // 3.开机先自动跑一段电机的调速测试 
+    // 测试时电机自动转，测试完电机会停下
     PWM_Test();
     
+    // 4. 正式进入后台巡逻：监听按键
+    // 可以通过按 PA0 按键，自由控制电机的启停
     while (1) {
         App_Button_Proc(); 
     } 
 }
+

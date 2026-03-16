@@ -158,13 +158,13 @@ void SysTick_Handler(void)
 {
 }*/
 
-//extern __IO uint64_t ulTicks;
-extern volatile uint32_t sys_tick_ms; // 声明在 main.c 中定义的按键时间戳变量
+extern __IO uint64_t ulTicks;
+//extern volatile uint32_t sys_tick_ms; // 声明在 main.c 中定义的按键时间戳变量
 
 void SysTick_Handler(void)
 {
-	//ulTicks++;      // 保持你原有的逻辑不变
-    sys_tick_ms++;  // 增加这一行，为我们的按键驱动提供毫秒级时间基准
+	  ulTicks++;      // 保持你原有的逻辑不变
+    //sys_tick_ms++;  // 增加这一行，为我们的按键驱动提供毫秒级时间基准
 }
 
 /**

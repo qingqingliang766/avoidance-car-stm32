@@ -31,5 +31,6 @@
 .\objects\app_button.o: .\std_periph_driver\inc\stm32f10x_tim.h
 .\objects\app_button.o: .\std_periph_driver\inc\stm32f10x_usart.h
 .\objects\app_button.o: .\std_periph_driver\inc\stm32f10x_wwdg.h
-.\objects\app_button.o: .\lib\my_button.h
+.\objects\app_button.o: .\my_lib\button.h
+.\objects\app_button.o: .\my_lib\delay.h
 .\objects\app_button.o: user\app_pwm.h
