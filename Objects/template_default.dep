@@ -1,6 +1,6 @@
 Dependencies for Project 'template', Target 'default': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\user\main.c)(0x69B7E845)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\std_periph_driver\inc -I .\user -I .\my_lib -I .\my_lib\font -I .\my_lib\font\.h -I .\lib -I .\test --no-multibyte-chars-IE:\Software\Keil5\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\user\main.c)(0x69B7EA4C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\std_periph_driver\inc -I .\user -I .\my_lib -I .\my_lib\font -I .\my_lib\font\.h -I .\lib -I .\test --no-multibyte-chars-IE:\Software\Keil5\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\std_periph_driver\inc\stm32f10x.h)(0x69B57887)
 I (.\std_periph_driver\inc\core_cm3.h)(0x69B57887)
 I (E:\Software\Keil5\Core\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -99,7 +99,7 @@ I (.\std_periph_driver\inc\stm32f10x_spi.h)(0x69B57887)
 I (.\std_periph_driver\inc\stm32f10x_tim.h)(0x69B57887)
 I (.\std_periph_driver\inc\stm32f10x_usart.h)(0x69B57887)
 I (.\std_periph_driver\inc\stm32f10x_wwdg.h)(0x69B57887)
-F (.\user\app_button.c)(0x69B7E846)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\std_periph_driver\inc -I .\user -I .\my_lib -I .\my_lib\font -I .\my_lib\font\.h -I .\lib -I .\test --no-multibyte-chars-IE:\Software\Keil5\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\app_button.o --omf_browse .\objects\app_button.crf --depend .\objects\app_button.d)
+F (.\user\app_button.c)(0x69B7EA8D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\std_periph_driver\inc -I .\user -I .\my_lib -I .\my_lib\font -I .\my_lib\font\.h -I .\lib -I .\test --no-multibyte-chars-IE:\Software\Keil5\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\app_button.o --omf_browse .\objects\app_button.crf --depend .\objects\app_button.d)
 I (user\app_button.h)(0x69B57887)
 I (.\std_periph_driver\inc\stm32f10x.h)(0x69B57887)
 I (.\std_periph_driver\inc\core_cm3.h)(0x69B57887)
@@ -907,7 +907,7 @@ I (.\std_periph_driver\inc\stm32f10x_sdio.h)(0x69B57887)
 I (.\std_periph_driver\inc\stm32f10x_spi.h)(0x69B57887)
 I (.\std_periph_driver\inc\stm32f10x_tim.h)(0x69B57887)
 I (.\std_periph_driver\inc\stm32f10x_usart.h)(0x69B57887)
-F (.\test\pwm_test.c)(0x69B7E8C2)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\std_periph_driver\inc -I .\user -I .\my_lib -I .\my_lib\font -I .\my_lib\font\.h -I .\lib -I .\test --no-multibyte-chars-IE:\Software\Keil5\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\pwm_test.o --omf_browse .\objects\pwm_test.crf --depend .\objects\pwm_test.d)
+F (.\test\pwm_test.c)(0x69BBEA14)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\std_periph_driver\inc -I .\user -I .\my_lib -I .\my_lib\font -I .\my_lib\font\.h -I .\lib -I .\test --no-multibyte-chars-IE:\Software\Keil5\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\pwm_test.o --omf_browse .\objects\pwm_test.crf --depend .\objects\pwm_test.d)
 I (test\pwm_test.h)(0x69B66598)
 I (.\std_periph_driver\inc\stm32f10x.h)(0x69B57887)
 I (.\std_periph_driver\inc\core_cm3.h)(0x69B57887)
